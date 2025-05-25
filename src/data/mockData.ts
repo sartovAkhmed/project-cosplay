@@ -329,7 +329,7 @@ export const upcomingEvents: Event[] = [
     description:
       "Главное аниме- и косплей-мероприятие Японии: новинки аниме, конкурсы косплея и культурные выставки.",
     imageUrl:
-      "https://images.pexels.com/photos/7234334/pexels-photo-7234334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://media.istockphoto.com/id/2153076189/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%82%D0%BE%D0%BB%D0%BF%D1%8B-%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D1%83%D0%BB%D0%B8%D1%86%D0%B5-%D1%82%D0%B0%D0%BA%D1%8D%D1%81%D0%B8%D1%82%D0%B0-%D0%B2-%D1%85%D0%B0%D1%80%D0%B0%D0%B4%D0%B7%D1%8E%D0%BA%D1%83-%D1%82%D0%BE%D0%BA%D0%B8%D0%BE-%D1%8F%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F.jpg?s=612x612&w=0&k=20&c=lyaIxzggikvQZDxV7Kg4r79kWz6bI1ihRHoAoD36Gy0=",
     date: "2025-07-20",
     time: "9:00 - 18:00",
     location: "Tokyo Big Sight, Токио",
@@ -342,8 +342,7 @@ export const upcomingEvents: Event[] = [
     name: "Чемпионат Европы по косплею",
     description:
       "Самый престижный конкурс косплея Европы: национальные чемпионы соревнуются за главный титул.",
-    imageUrl:
-      "https://images.pexels.com/photos/7989682/pexels-photo-7989682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageUrl: "https://www.kino-teatr.ru/news/35117/324594.jpg",
     date: "2025-09-10",
     time: "18:00 - 22:00",
     location: "Koelnmesse, Кёльн",
@@ -362,7 +361,7 @@ export const allEvents: Event[] = [
     description:
       "Научитесь делать легкую и прочную броню из EVA-пены под руководством профессиональных косплееров.",
     imageUrl:
-      "https://images.pexels.com/photos/6942634/pexels-photo-6942634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://cs8.pikabu.ru/post_img/big/2017/08/01/10/1501605950120444345.jpg",
     date: "2025-06-25",
     time: "13:00 - 17:00",
     location: "Makerspace Central, Чикаго",
@@ -390,7 +389,7 @@ export const allEvents: Event[] = [
     description:
       "Всемирно известная конвенция поп-культуры: конкурсы косплея, знаменитости, панели и выставки.",
     imageUrl:
-      "https://images.pexels.com/photos/7989211/pexels-photo-7989211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://www.comic-con.org/uploads/2023/10/museum-entrance-hero-1024x679-1.webp",
     date: "2025-07-25",
     time: "9:00 - 19:00",
     location: "San Diego Convention Center, Сан-Диего",
