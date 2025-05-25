@@ -9,7 +9,6 @@ import {
   Book,
   Wand2,
   Camera,
-  Swatch,
   HeartHandshake,
 } from "lucide-react";
 
@@ -17,9 +16,9 @@ const ResourcesPage: React.FC = () => {
   const resources = [
     {
       id: 1,
-      title: "Beginner's Guide",
+      title: "Гид для начинающих",
       description:
-        "Everything you need to know to start your cosplay journey, from basic materials to simple techniques.",
+        "Всё, что нужно знать для начала пути в косплее: базовые материалы и простые техники.",
       icon: <Book className="w-8 h-8" />,
       color:
         "bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400",
@@ -27,27 +26,27 @@ const ResourcesPage: React.FC = () => {
     },
     {
       id: 2,
-      title: "Materials Guide",
+      title: "Гид по материалам",
       description:
-        "Comprehensive information about different materials used in cosplay, their properties, and where to find them.",
+        "Подробная информация о различных материалах для косплея, их свойствах и где их найти.",
       // icon: <Swatch className="w-8 h-8" />,
       color: "bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-400",
       link: "/resources/materials",
     },
     {
       id: 3,
-      title: "Costume Techniques",
+      title: "Техники создания костюмов",
       description:
-        "Learn sewing, pattern-making, and fabric manipulation techniques to create stunning costumes.",
+        "Изучите шитьё, создание выкроек и работу с тканями для создания впечатляющих костюмов.",
       icon: <Scissors className="w-8 h-8" />,
       color: "bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400",
       link: "/resources/costume-techniques",
     },
     {
       id: 4,
-      title: "Prop Making",
+      title: "Создание реквизита",
       description:
-        "Tutorials for creating weapons, accessories, and props using foam, 3D printing, and more.",
+        "Уроки по созданию оружия, аксессуаров и реквизита из фоама, 3D-печати и других материалов.",
       icon: <Wand2 className="w-8 h-8" />,
       color:
         "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-600 dark:text-yellow-400",
@@ -55,9 +54,9 @@ const ResourcesPage: React.FC = () => {
     },
     {
       id: 5,
-      title: "Makeup Techniques",
+      title: "Техники макияжа",
       description:
-        "Transform your face with character makeup, special effects, and prosthetics tutorials.",
+        "Преобразите лицо с помощью макияжа персонажей, спецэффектов и уроков по протезированию.",
       icon: <Palette className="w-8 h-8" />,
       color:
         "bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400",
@@ -65,18 +64,18 @@ const ResourcesPage: React.FC = () => {
     },
     {
       id: 6,
-      title: "Shopping Guide",
+      title: "Гид по покупкам",
       description:
-        "Where to find the best materials, tools, and pre-made items for your cosplays.",
+        "Где найти лучшие материалы, инструменты и готовые товары для косплея.",
       icon: <ShoppingBag className="w-8 h-8" />,
       color: "bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400",
       link: "/resources/shopping-guide",
     },
     {
       id: 7,
-      title: "Photography Tips",
+      title: "Советы по фотосъёмке",
       description:
-        "Capture your cosplay with professional-looking photos using these photography and posing tips.",
+        "Сделайте профессиональные фото своих косплеев с помощью советов по фотографии и позированию.",
       icon: <Camera className="w-8 h-8" />,
       color:
         "bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400",
@@ -84,9 +83,9 @@ const ResourcesPage: React.FC = () => {
     },
     {
       id: 8,
-      title: "Community Guidelines",
+      title: "Правила сообщества",
       description:
-        "Etiquette, inclusivity, and how to be a positive member of the cosplay community.",
+        "Этикет, инклюзивность и как быть позитивным участником косплей-сообщества.",
       icon: <HeartHandshake className="w-8 h-8" />,
       color: "bg-teal-100 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400",
       link: "/resources/community",
@@ -96,16 +95,16 @@ const ResourcesPage: React.FC = () => {
   return (
     <div>
       <Hero
-        title="Cosplay Resources"
-        subtitle="Guides, tutorials, and materials to help you create amazing cosplays"
+        title="Ресурсы для косплея"
+        subtitle="Гайды, уроки и материалы, которые помогут вам создавать потрясающие косплеи"
         imageUrl="https://images.pexels.com/photos/6195663/pexels-photo-6195663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       />
 
       <section className="py-16 px-4 md:px-8">
         <div className="container mx-auto">
           <SectionHeading
-            title="Resource Library"
-            subtitle="Everything you need to create incredible cosplays, all in one place"
+            title="Библиотека ресурсов"
+            subtitle="Всё, что нужно для создания невероятных косплеев, в одном месте"
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -131,7 +130,7 @@ const ResourcesPage: React.FC = () => {
 
                 <div className="mt-auto">
                   <span className="inline-flex items-center font-medium text-purple-600 group-hover:text-purple-700 dark:text-purple-400 dark:group-hover:text-purple-300 transition-colors">
-                    Explore
+                    Подробнее
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-4 w-4 ml-1 transform group-hover:translate-x-1 transition-transform"
@@ -160,13 +159,13 @@ const ResourcesPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Featured Tutorial: Foam Armor Basics
+                Избранный урок: Основы брони из фоама
               </h2>
 
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Learn how to create lightweight, durable armor pieces using EVA
-                foam. This step-by-step tutorial covers everything from pattern
-                creation to painting and weathering techniques.
+                Узнайте, как создавать легкие и прочные элементы брони из
+                EVA-фоама. В этом пошаговом уроке вы освоите всё: от создания
+                выкроек до покраски и техники состаривания.
               </p>
 
               <ul className="space-y-4 mb-6">
@@ -177,8 +176,8 @@ const ResourcesPage: React.FC = () => {
                     </span>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Learn how to create and transfer patterns from digital
-                    templates
+                    Научитесь создавать и переносить выкройки с цифровых
+                    шаблонов
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -188,7 +187,7 @@ const ResourcesPage: React.FC = () => {
                     </span>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Master cutting, shaping, and heat-forming EVA foam
+                    Освойте резку, формовку и термообработку EVA-фоама
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -198,8 +197,8 @@ const ResourcesPage: React.FC = () => {
                     </span>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Discover professional sealing, painting, and weathering
-                    techniques
+                    Откройте для себя профессиональные техники герметизации,
+                    покраски и состаривания
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -209,7 +208,7 @@ const ResourcesPage: React.FC = () => {
                     </span>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Create comfortable strapping systems for wearable armor
+                    Создайте удобные системы крепления для ношения брони
                   </p>
                 </li>
               </ul>
@@ -218,29 +217,29 @@ const ResourcesPage: React.FC = () => {
                 href="/resources/tutorials/foam-armor-basics"
                 className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-colors"
               >
-                View Full Tutorial
+                Смотреть полный урок
               </a>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               <img
                 src="https://images.pexels.com/photos/5586526/pexels-photo-5586526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="EVA foam armor piece"
+                alt="Элемент брони из EVA-фоама"
                 className="rounded-lg shadow-md h-48 w-full object-cover"
               />
               <img
                 src="https://images.pexels.com/photos/3802668/pexels-photo-3802668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Painting foam armor"
+                alt="Покраска брони из фоама"
                 className="rounded-lg shadow-md h-48 w-full object-cover"
               />
               <img
                 src="https://images.pexels.com/photos/5417682/pexels-photo-5417682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Pattern cutting"
+                alt="Вырезание выкроек"
                 className="rounded-lg shadow-md h-48 w-full object-cover"
               />
               <img
                 src="https://images.pexels.com/photos/2573605/pexels-photo-2573605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Finished armor piece"
+                alt="Готовый элемент брони"
                 className="rounded-lg shadow-md h-48 w-full object-cover"
               />
             </div>
@@ -252,8 +251,8 @@ const ResourcesPage: React.FC = () => {
       <section className="py-16 px-4 md:px-8">
         <div className="container mx-auto">
           <SectionHeading
-            title="Free Downloads"
-            subtitle="Templates, patterns, and reference guides to help with your cosplay projects"
+            title="Бесплатные материалы"
+            subtitle="Шаблоны, выкройки и справочники для ваших косплей-проектов"
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -263,17 +262,17 @@ const ResourcesPage: React.FC = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                  Pattern Templates
+                  Шаблоны выкроек
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Basic armor and accessory patterns to help you get started
-                  with your cosplay projects.
+                  Базовые выкройки для брони и аксессуаров, чтобы вы могли
+                  начать свой проект.
                 </p>
                 <a
                   href="#"
                   className="inline-flex items-center font-medium text-purple-600 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300 transition-colors"
                 >
-                  Download PDF
+                  Скачать PDF
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-1"
@@ -298,17 +297,17 @@ const ResourcesPage: React.FC = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                  Color Reference Guide
+                  Справочник по цветам
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Paint mixing formulas and color references for popular
-                  characters and materials.
+                  Формулы смешивания красок и цветовые референсы для популярных
+                  персонажей и материалов.
                 </p>
                 <a
                   href="#"
                   className="inline-flex items-center font-medium text-purple-600 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300 transition-colors"
                 >
-                  Download PDF
+                  Скачать PDF
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-1"
@@ -333,17 +332,17 @@ const ResourcesPage: React.FC = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                  Materials Checklist
+                  Чек-лист материалов
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Comprehensive list of materials and tools needed for different
-                  types of cosplay projects.
+                  Полный список материалов и инструментов для разных видов
+                  косплей-проектов.
                 </p>
                 <a
                   href="#"
                   className="inline-flex items-center font-medium text-purple-600 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300 transition-colors"
                 >
-                  Download PDF
+                  Скачать PDF
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-1"
