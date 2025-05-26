@@ -7,7 +7,7 @@ export const featuredCosplays: Cosplay[] = [
     character: "Истребитель демонов — Нэдзуко",
     cosplayer: "Эмма Чен",
     imageUrl:
-      "https://img.joomcdn.net/c87e2f0784759492e0a5de0c3783fa55d0cf008e_original.jpeg",
+      "https://ae01.alicdn.com/kf/S5cde3a878f424314a28d33093f0bd30cu.jpg",
     tags: ["Аниме", "Истребитель демонов", "Избранное"],
   },
   {
@@ -15,7 +15,7 @@ export const featuredCosplays: Cosplay[] = [
     character: "Киберпанк Самурай",
     cosplayer: "Алекс Ривера",
     imageUrl:
-      "https://ae04.alicdn.com/kf/Sc2bcea3659ec44839bae2bae542ebaf6e.jpg_480x480.jpg",
+      "https://preview.redd.it/cyberpunk-themed-samurai-cosplay-v0-pwzrbs11vknc1.jpg?width=640&crop=smart&auto=webp&s=6cc88f08c217f01546f7f5502185eafbc6bd2ae5",
     tags: ["Оригинал", "Киберпанк", "Броня"],
   },
   {
@@ -31,7 +31,7 @@ export const featuredCosplays: Cosplay[] = [
     character: "Ведьма-Колдунья",
     cosplayer: "Оливия Блэк",
     imageUrl:
-      "https://images.pexels.com/photos/5417683/pexels-photo-5417683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://ae04.alicdn.com/kf/Sc3cf9673844e452398681046f134676fe.jpg",
     tags: ["Фэнтези", "Магия", "Оригинал"],
   },
   {
@@ -39,7 +39,7 @@ export const featuredCosplays: Cosplay[] = [
     character: "Научно-фантастический Воин",
     cosplayer: "Маркус Джонсон",
     imageUrl:
-      "https://images.pexels.com/photos/6045028/pexels-photo-6045028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://art-fresco.ru/upload/webp/iblock/c6f/wf61sgmh46zuu3bjgpejm0ek8yuiyd3z.webp",
     tags: ["Научная фантастика", "Броня", "Оригинал"],
   },
   {
@@ -47,7 +47,7 @@ export const featuredCosplays: Cosplay[] = [
     character: "Фея-Хранительница",
     cosplayer: "Лили Чен",
     imageUrl:
-      "https://images.pexels.com/photos/5383501/pexels-photo-5383501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://i.pinimg.com/originals/6c/70/a7/6c70a7610347c1f2581ab5bfb1b49d60.jpg",
     tags: ["Фэнтези", "Крылья", "Оригинал"],
   },
 ];
@@ -144,8 +144,7 @@ export const featuredArticles: Article[] = [
     title: "Гид для новичков по косплею: с чего начать",
     excerpt:
       "Думаете заняться косплеем, но не знаете, с чего начать? В этом полном руководстве вы найдете всё, что нужно для начала своего пути.",
-    imageUrl:
-      "https://images.pexels.com/photos/9582298/pexels-photo-9582298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageUrl: "https://kluch.media/upload/iblock/8b2/1200x600.jpg",
     category: "Гиды для новичков",
     date: "15 июня 2025",
     readTime: 8,
@@ -162,7 +161,7 @@ export const featuredArticles: Article[] = [
     excerpt:
       "Узнайте основы работы с EVA-пеной для создания легких и прочных элементов брони. От создания выкроек до техник покраски.",
     imageUrl:
-      "https://images.pexels.com/photos/7234306/pexels-photo-7234306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://cs8.pikabu.ru/post_img/big/2017/08/01/10/1501605950120444345.jpg",
     category: "Мастер-классы",
     date: "10 июня 2025",
     readTime: 12,
@@ -178,7 +177,7 @@ export const featuredArticles: Article[] = [
     excerpt:
       "Освойте искусство макияжа для косплея с пошаговыми уроками, рекомендациями по продуктам и профессиональными техниками.",
     imageUrl:
-      "https://images.pexels.com/photos/5417675/pexels-photo-5417675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://twizz.ru/wp-content/uploads/2021/10/1633358559_8c7dd922ad47494fc02c388e12c00eac.jpg",
     category: "Макияж",
     date: "5 июня 2025",
     readTime: 10,
@@ -231,7 +230,7 @@ export const allArticles: Article[] = [
     excerpt:
       "Узнайте, как создавать впечатляющие косплеи без больших затрат: бюджетные материалы и лайфхаки.",
     imageUrl:
-      "https://images.pexels.com/photos/6942634/pexels-photo-6942634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://moscultura.ru/sites/default/files/photo/2022/06/bc6a0546.jpg",
     category: "Гиды для новичков",
     date: "15 мая 2025",
     readTime: 6,
@@ -315,7 +314,7 @@ export const upcomingEvents: Event[] = [
     description:
       "Крупнейший фестиваль косплея и поп-культуры на восточном побережье США: конкурсы, панели, мастер-классы и знаменитости.",
     imageUrl:
-      "https://images.pexels.com/photos/9582299/pexels-photo-9582299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://moscultura.ru/sites/default/files/photo/2022/06/bc6a0546.jpg",
     date: "2025-08-15",
     time: "10:00 - 20:00",
     location: "Boston Convention Center, Бостон",

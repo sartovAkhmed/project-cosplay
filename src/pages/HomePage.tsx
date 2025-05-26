@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
       <Hero
         title="Откройте для себя искусство косплея"
         subtitle="Присоединяйтесь к нашему сообществу создателей, которые оживляют вымышленных персонажей с помощью костюмов, грима и выступлений. Посмотреть галерею"
-        imageUrl="https://images.pexels.com/photos/6469334/pexels-photo-6469334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        imageUrl="https://vdnh.ru/upload/resize_cache/iblock/3a8/1000_1000_1/3a8d56c4d48dee4bb10a28fb8decf8ae.jpg"
         buttonText="Исследуйте галерею"
         buttonLink="/gallery"
       />
@@ -92,24 +92,24 @@ const HomePage: React.FC = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.pexels.com/photos/5586515/pexels-photo-5586515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src="https://cs7.pikabu.ru/post_img/big/2018/01/03/0/1514929146138799257.jpg"
                   alt="Косплеер на фестивале"
-                  className="rounded-lg shadow-md h-48 w-full object-cover"
+                  className="rounded-lg shadow-md h-72 w-full object-cover"
                 />
                 <img
-                  src="https://images.pexels.com/photos/10353821/pexels-photo-10353821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src="https://ae04.alicdn.com/kf/S91095bbb2e0a4b90933f2e2f6c0eaed1B.png"
                   alt="Создание реквизита для косплея"
                   className="rounded-lg shadow-md h-64 w-full object-cover"
                 />
               </div>
               <div className="space-y-4 mt-8">
                 <img
-                  src="https://images.pexels.com/photos/3394310/pexels-photo-3394310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src="https://site.kizhi.karelia.ru/media/thumbs/opr/87/88/kostum_.jpg"
                   alt="Детали костюма"
                   className="rounded-lg shadow-md h-64 w-full object-cover"
                 />
                 <img
-                  src="https://images.pexels.com/photos/6373792/pexels-photo-6373792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src="https://media.istockphoto.com/id/626610946/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B0-%D0%BA%D0%BE%D1%81%D0%BF%D0%BB%D0%B5%D0%B5%D1%80%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%B9%D0%BE%D1%80%D0%BA%D1%88%D0%B8%D1%80%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D0%BE%D1%81%D0%BF%D0%BB%D0%B5%D0%B9-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BD%D1%86%D0%B8%D0%B8.jpg?s=1024x1024&w=is&k=20&c=Eai6_VmWOFYqER1VXUcFGMaNDy3JgP1q3UrHt_ZEB30="
                   alt="Групповой косплей"
                   className="rounded-lg shadow-md h-48 w-full object-cover"
                 />
