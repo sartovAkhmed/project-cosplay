@@ -75,8 +75,7 @@ export const allCosplays: Cosplay[] = [
     id: 9,
     character: "Боец будущего",
     cosplayer: "Крис Родригес",
-    imageUrl:
-      "https://images.pexels.com/photos/6048271/pexels-photo-6048271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageUrl: "https://s14.stc.yc.kpcdn.net/share/i/12/13893657/de-1200.jpg",
     tags: ["Научная фантастика", "Оригинал", "Броня"],
   },
   {
@@ -84,7 +83,7 @@ export const allCosplays: Cosplay[] = [
     character: "Пиратский Капитан",
     cosplayer: "Зои Патель",
     imageUrl:
-      "https://images.pexels.com/photos/6942521/pexels-photo-6942521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://cdn.ananasposter.ru/image/cache/catalog/poster/film/95/2800-1000x830.jpg",
     tags: ["Исторический", "Пират", "Детализированный"],
   },
   {
@@ -92,7 +91,7 @@ export const allCosplays: Cosplay[] = [
     character: "Final Fantasy — Тифа",
     cosplayer: "Морган Ю",
     imageUrl:
-      "https://images.pexels.com/photos/7234323/pexels-photo-7234323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://i.pinimg.com/736x/38/af/b5/38afb53c42276b153ccecb456d3db512.jpg",
     tags: ["Видеоигры", "Final Fantasy", "Популярный"],
   },
   {
@@ -100,7 +99,7 @@ export const allCosplays: Cosplay[] = [
     character: "Викинг-Воин",
     cosplayer: "Эрик Джонсон",
     imageUrl:
-      "https://images.pexels.com/photos/6770609/pexels-photo-6770609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://i.pinimg.com/736x/0a/bd/9f/0abd9fca4330404afee2b3396a313f63.jpg",
     tags: ["Исторический", "Викинг", "Броня"],
   },
   {
@@ -108,7 +107,7 @@ export const allCosplays: Cosplay[] = [
     character: "Маг-Колдун",
     cosplayer: "Дэвид Уильямс",
     imageUrl:
-      "https://images.pexels.com/photos/8107183/pexels-photo-8107183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://ae04.alicdn.com/kf/H37d68e2f5378411c8c897d75be0d8ebaX.jpg_480x480.jpg",
     tags: ["Фэнтези", "Магия", "Оригинал"],
   },
   {
@@ -116,7 +115,7 @@ export const allCosplays: Cosplay[] = [
     character: "Постапокалиптический Выживший",
     cosplayer: "Рэйчел Мартинес",
     imageUrl:
-      "https://images.pexels.com/photos/8107184/pexels-photo-8107184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://cs5.pikabu.ru/post_img/2015/03/25/10/1427299323_2135750211.jpg",
     tags: ["Постапокалипсис", "Оригинал", "Потертый"],
   },
   {
@@ -124,7 +123,7 @@ export const allCosplays: Cosplay[] = [
     character: "Assassin's Creed",
     cosplayer: "Натан Чен",
     imageUrl:
-      "https://images.pexels.com/photos/3394310/pexels-photo-3394310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://i.pinimg.com/564x/51/a7/eb/51a7eb331a3b0abb7f30b8a7137ef508.jpg",
     tags: ["Видеоигры", "Assassin's Creed", "Детализированный"],
   },
   {
@@ -132,7 +131,7 @@ export const allCosplays: Cosplay[] = [
     character: "Эльфийская Принцесса",
     cosplayer: "Лейла Браун",
     imageUrl:
-      "https://images.pexels.com/photos/6209477/pexels-photo-6209477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoC4psby_uFskFVhD4oW0ko4daNxZ-nx5dzw&s",
     tags: ["Фэнтези", "Эльф", "Элегантный"],
   },
 ];
@@ -415,8 +414,7 @@ export const allEvents: Event[] = [
     name: "Конкурс косплея по видеоиграм",
     description:
       "Конкурс только для косплея по видеоиграм: номинации за мастерство, точность и выступление.",
-    imageUrl:
-      "https://images.pexels.com/photos/7234333/pexels-photo-7234333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageUrl: "https://dota2.ru/img/uploads/22/09/1065019.jpg",
     date: "2024-12-10",
     time: "18:00 - 21:00",
     location: "GameHub Arena, Сеул",
@@ -430,7 +428,7 @@ export const allEvents: Event[] = [
     description:
       "Погружение в атмосферу стимпанка: тематические активности, дуэли на чае и викторианские развлечения.",
     imageUrl:
-      "https://images.pexels.com/photos/9741760/pexels-photo-9741760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://steampunkfest.ru/assets/images/2024/modaasvintage-01.jpeg",
     date: "2024-11-15",
     time: "12:00 - 20:00",
     location: "Исторический район фабрик, Берлин",

@@ -46,7 +46,7 @@ const GalleryPage: React.FC = () => {
       <Hero
         title="Галерея косплея"
         subtitle="Просмотрите нашу коллекцию удивительных косплей-работ со всего мира"
-        imageUrl="https://images.pexels.com/photos/7234322/pexels-photo-7234322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        imageUrl="https://vdnh.ru/upload/resize_cache/iblock/871/1000_1000_1/8718903af86e2e4350e223b52c168e10.jpg"
       />
 
       <section className="py-16 px-4 md:px-8">

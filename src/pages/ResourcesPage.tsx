@@ -97,7 +97,7 @@ const ResourcesPage: React.FC = () => {
       <Hero
         title="Ресурсы для косплея"
         subtitle="Гайды, уроки и материалы, которые помогут вам создавать потрясающие косплеи"
-        imageUrl="https://images.pexels.com/photos/6195663/pexels-photo-6195663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        imageUrl="https://pm1.aminoapps.com/6913/1c57bd3bebf3ad841dd32ecf1ba3ad4308208aeer1-604-470v2_hq.jpg"
       />
 
       <section className="py-16 px-4 md:px-8">
